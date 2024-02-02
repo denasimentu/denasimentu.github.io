@@ -1,0 +1,682 @@
+* {
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #141a25;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+header nav {
+    background-color: #141a25;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 30px 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+
+
+header .logo img {
+    width: 47px;
+    height: auto;
+}
+
+header nav ul {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header .logos {
+    width: 8%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logos img {
+    width: 20px;
+    height: 20px;
+}
+
+header .head_main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .my_image {
+    width: calc(100% / 3.3 - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header .my_image img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 230px;
+}
+
+header .header_main h1 {
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .header_main p {
+    width: 100%;
+    height: auto;
+    margin-top: 34px;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .header_main p span {
+    color: aqua;
+}
+
+header .header_main button {
+    padding: 10px 20px;
+    color: white;
+    margin-top: 73px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .header_main button:hover {
+    scale: 1.01;
+    transition: .5s;
+    box-shadow: 1px 1px 20px gray;
+    background-color: #ffffff08;
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header .header_main h1 {
+        font-size: 54px;
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+    header nav {
+        width: 100%;
+        margin: auto;
+        margin-top: 0;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header .logos {
+        width: 30%;
+        margin-bottom: 100px;
+    }
+    header .header_main h1 {
+        font-size: 34px;
+    }
+
+    header .header_main p {
+        font-size: 16px;
+    }
+
+    header .header_main button {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    header .head_main {
+        display: flex;
+    }
+
+    header .my_image img {
+        margin-top: 250px;
+    }
+
+    header .my_image {
+        width: calc(100% / 3.3 - 10px);
+    }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header nav ul li a {
+        font-size: 10px;
+        padding: 2px;
+    }
+    header .logo {
+        margin: 10px 2px;
+    }
+    
+    
+    header .logo img {
+        width: 30px;
+    }
+}
+
+
+.Projects {
+    max-width: 80%;
+}
+
+.Projects h1 {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 274px;
+    padding-bottom: 93px;
+}
+
+.projectdiv {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.projectdivs {
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 8px 0px #FFF;
+}
+
+.projectdivs img {
+    width: 100%;
+    height: auto;
+    padding: 18px;
+}
+
+.projectdivs h3 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projectdivs hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border: solid 1px white;
+}
+
+.projectdivs p {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.projectdivs button {
+    width: 50%;
+    margin: 100px 85px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projectdivs button:hover {
+    scale: 1.01;
+    transition: .5s;
+    box-shadow: 1px 1px 20px gray;
+    background-color: #ffffff08;
+}
+
+.projectdiv {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+@media screen and (max-width: 920px) {
+    .projectdiv {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .projectdiv {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .projectdivs button {
+        margin: 50px 70px;
+        font-size: 18px;
+    }
+    .Projects h1 {
+        margin-top: 50px;
+    }
+}
+
+.Technologies_blok {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.Technologies_blok h1 {
+    max-width: 100%;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skills_blok_main {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.skil_bloks {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skil_bloks h6 {
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.skil_bloks p {
+    height: auto;
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.rectangle {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.rectangle img:nth-of-type(1) {
+    width: 100%;
+    height: auto;
+}
+
+.rectangle img:nth-of-type(2) {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.rectangle1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.rectangle1 img:nth-of-type(1) {
+    width: 100%;
+    height: auto;
+}
+
+.rectangle1 img:nth-of-type(2) {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 460px) {
+    .skil_bloks h6 {
+        font-size: 16px;
+    }
+
+    .skil_bloks p {
+        font-size: 6px;
+    }
+
+    .Technologies_blok h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+.addit_main {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.addit_main h1 {
+    max-width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.addits {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.addits p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 780px) {}
+
+@media screen and (max-width: 460px) {
+    .addits {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .addit_main h1 {
+        font-size: 25px;
+    }
+}
+
+
+.my_about {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.my_about h1 {
+    max-width: 100%;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+
+.about_me {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.years {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.years p {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+
+}
+
+.rectangel {
+    max-width: 77%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.rectangel img {
+    width: 100%;
+    height: auto;
+}
+
+.circles {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 91px;
+    background: none;
+}
+
+.circles img {
+    width: 2%;
+    height: auto;
+    margin: auto;
+}
+
+.coment {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.coment p {
+    width: 20%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 460px) {
+    .my_about h1 {
+        font-size: 30px;
+    }
+
+    .years p {
+        font-size: 10px;
+
+    }
+
+    .rectangel {
+        margin-top: 2px;
+    }
+
+    .circles {
+        position: absolute;
+        top: 62px;
+    }
+
+    .coment p {
+        font-size: 8px;
+        margin-top: 2px;
+    }
+}
+
+
+
+
+.line_foot {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.line_foot hr {
+    border: 1px solid white;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+footer .svyaz {
+    width: 100%;
+}
+
+footer .svyaz p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .pochta {
+    width: 100%;
+}
+
+footer .pochta p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .sotset {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .sotset img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.line_down {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.line_down hr {
+    border: 1px solid white;
+}
+
+.line_down p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    footer .sotset img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    footer .sotset {
+        width: 10%;
+    }
+    footer .svyaz {
+        margin-top: 20px;
+    }
+    footer .pochta  {
+        margin-top: 40px;
+    }
+    footer .sotset {
+        margin-top: 20px;
+        width: 30%;
+    }
+}
